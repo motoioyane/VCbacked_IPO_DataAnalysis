@@ -63,5 +63,5 @@ There are few potential limitations to the process and the outcome:
 - Through my investigation of th data I found out that Alpha Vantage only had the daily stock data from 1998-01-02 so I have to adjust my time-series analysis accordingly.
 
 - The groupings/graphs may not present an accurate representation of the stock price behavior because within each group there are companies that:
- - went private, acquired or merged after a period of time so it may be not sensible to group these companies together with ones that are still public.
- - went public too recently so not all cumulative returns will not be available and it may not be sensible to compare the statistics of these companies to those that have been public for a logner period of time.
+   - went private, acquired or merged after a period of time so it may be not sensible to group these companies together with ones that are still public.
+   - went public too recently so not all cumulative returns will not be available and it may not be sensible to compare the statistics of these companies to those that have been public for a logner period of time.
