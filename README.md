@@ -20,12 +20,12 @@ This project will study how a company's pre-IPO status (Max Valuation, Total Fun
 
 ### Process Outline
 
-The key elements of the project if the use of [CBInsight's Data Collection](https://www.cbinsights.com/search/deals) that provides access to the companies that fit the criteria above and [Alpha Vantage's API](https://www.alphavantage.co/) that provides access to the daily stock prices of each company. The following is the description of the dataset that I will obtain and will need.
+The key elements of the project is the use of [CBInsight's Data Collection](https://www.cbinsights.com/search/deals) that provides access to the companies that fit the criteria above and [Alpha Vantage's API](https://www.alphavantage.co/) that provides access to the daily stock prices of each company. The following is the description of the dataset that I will obtain and will need.
 
 - **pre-IPO data from CBInsight Dataset**: I will obtain the data set from [https://www.cbinsights.com/search/deals](https://www.cbinsights.com/search/deals) where I will filter the search by Geography (United States), Company Status (IPO/went public), and Backing (Only show VC-backed companies). The data will be exported in csv format, which I will import on jupyter as a DataFrame. I will clean this data by removing irrelavent data attributes for each companies such as "# of Twitter Followers", "Min Valuation", "URL" (shown below in Data Report), removing companies with insufficient information, and by keeping companies that were funded in Seed and/or Series A~I. 
 - **stock price from Alpha Vantage API**: Then, I will re-import the data as csv and access the API for Alpha Vantage (using a free API key that they issue: [https://www.alphavantage.co/](https://www.alphavantage.co/)) to download the daily share price for each company. 
 
-After the collecting the full data, I anticipte that the project will have three sections:
+After the collecting the full data, the project will have three sections:
 
 1. **Analyzing the data** - Making a new dataframe with: ticker, company name, sector, exit round, IPO date, pre-IPO max valuation, total funding, cumulative return after 1-12 months
 
