@@ -15,7 +15,7 @@ I acknowledged that a failure to abide by NYU Stern Honor Code will result in a 
 
 ### Abstract
 
-This project will study how a company's pre-IPO status (Max Valuation, Total Funding, Exit Round, Operating Sector) affect the stock price behavior after IPO. I will specifically target companies that were VC-backed, head quartered in United States (US), and exited through IPO. This analysis is especially relevent in 2019 as we are anticipating many Unicorns to go public, after Lyft's poor and Beyond Meat's strong market debut. 
+This project will study how a company's pre-IPO status (Max Valuation, Total Funding, Exit Round, Operating Sector) affect the stock price behavior after IPO. I will specifically target companies that were VC-backed, head quartered in United States (US), and exited through IPO. This analysis is especially relevant in 2019 as we are anticipating many Unicorns to go public, after Lyft's poor and Beyond Meat's strong market debut. 
 
 
 ### Process Outline
