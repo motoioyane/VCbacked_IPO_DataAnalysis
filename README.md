@@ -32,8 +32,8 @@ After the collecting the full data, I anticipte that the project will have three
 2. **Grouping the data** - Grouping the companies:
 
  - ***exit round***: Early Stage (Seed, Series A, B), Growth Stage (Series C-D), Late Stage (Series E-I)
- - ***total funding***: <50m,50m~100m,100m~200m,200~300m, >300M
- - ***pre-IPO max valuation***: <100m,100m~500m,500m~1bn,1bn~10bn,>10bn
+ - ***total funding***: <50m, 50-100m ,100-200m,200-300m, >300M
+ - ***pre-IPO max valuation***: <100m,100-500m,500m-1bn,1-10bn,>10bn
  - ***Sectors***
  
  
