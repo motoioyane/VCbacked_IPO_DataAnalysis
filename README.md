@@ -38,7 +38,7 @@ After the collecting the full data, I anticipte that the project will have three
  - ***Sectors***
  
  
-3. ***Plotting the data*** - Plotting the four sets of graphs:
+3. **Plotting the data** - Plotting the four sets of graphs:
 
  - Line Graph: ***cumulative return vs time since IPO*** of each of the exit round groups
  - Line Graph: ***cumulative return vs time since IPO*** of each of the total funding groups
