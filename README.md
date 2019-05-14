@@ -23,7 +23,6 @@ This project will study how a company's pre-IPO status (Max Valuation, Total Fun
 The key elements of the project if the use of [CBInsight's Data Collection](https://www.cbinsights.com/search/deals) that provides access to the companies that fit the criteria above and [Alpha Vantage's API](https://www.alphavantage.co/) that provides access to the daily stock prices of each company. The following is the description of the dataset that I will obtain and will need.
 
 - **pre-IPO data from CBInsight Dataset**: I will obtain the data set from [https://www.cbinsights.com/search/deals](https://www.cbinsights.com/search/deals) where I will filter the search by Geography (United States), Company Status (IPO/went public), and Backing (Only show VC-backed companies). The data will be exported in csv format, which I will import on jupyter as a DataFrame. I will clean this data by removing irrelavent data attributes for each companies such as "# of Twitter Followers", "Min Valuation", "URL" (shown below in Data Report), removing companies with insufficient information, and by keeping companies that were funded in Seed and/or Series A~I. 
-- **ticker from Yahoo Finance**: After cleaning the CBInsight Dataset, I will export the DataFrame and manually obtain all of the companies' ticker from [https://finance.yahoo.com/](https://finance.yahoo.com/).
 - **stock price from Alpha Vantage API**: Then, I will re-import the data as csv and access the API for Alpha Vantage (using a free API key that they issue: [https://www.alphavantage.co/](https://www.alphavantage.co/)) to download the daily share price for each company. 
 
 After the collecting the full data, I anticipte that the project will have three sections:
@@ -65,3 +64,8 @@ There are few potential limitations to the process and the outcome:
 - The groupings/graphs may not present an accurate representation of the stock price behavior because within each group there are companies that:
    - went private, acquired or merged after a period of time so it may be not sensible to group these companies together with ones that are still public.
    - went public too recently so not all cumulative returns will not be available and it may not be sensible to compare the statistics of these companies to those that have been public for a logner period of time.
+
+### References
+
+ “Company Search.” CBInsights, 8 Apr. 2019, www.cbinsights.com/search/company. <br>
+ "Stock Time Series." Alpha Vantage, 11 May 2019, www.alphavantage.co/documentation/#time-series-data.
