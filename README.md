@@ -15,7 +15,7 @@ I acknowledged that a failure to abide by NYU Stern Honor Code will result in a 
 
 ### Abstract
 
-This project will study how a company's pre-IPO status (Max Valuation, Total Funding, Exit Round, Operating Sector) affect the stock price behavior after IPO. I will specifically target companies that were VC-backed, head quartered in United States (US), and exited through IPO. This analysis is especially relevant in 2019 as we are anticipating many Unicorns to go public, after Lyft's poor and Beyond Meat's strong market debut. 
+This project studies how a company's IPO Exit Round and Operating Sector is related to the stock price behavior after IPO. I will specifically target companies that were VC-backed, head quartered in United States (US), and exited through IPO. This analysis is especially relevent in 2019 as we are anticipating many Unicorns to go public, after Lyft's poor and Beyond Meat's strong market debut.
 
 
 ### Process Outline
@@ -32,23 +32,18 @@ After the collecting the full data, the project will have three sections:
 2. **Grouping the data** - Grouping the companies:
 
  - ***exit round***: Early Stage (Seed, Series A, B), Growth Stage (Series C-D), Late Stage (Series E-I)
- - ***total funding***: <50m, 50-100m ,100-200m,200-300m, >300M
- - ***pre-IPO max valuation***: <100m,100-500m,500m-1bn,1-10bn,>10bn
  - ***Sectors***
  
  
 3. **Plotting the data** - Plotting the four sets of graphs:
 
  - Line Graph: ***cumulative return vs time since IPO*** of each of the exit round groups
- - Line Graph: ***cumulative return vs time since IPO*** of each of the total funding groups
- - Line Graph: ***cumulative return vs time since IPO*** of each of the pre-IPO max valuation
- - Line Graph: ***cumulative return vs time since IPO*** of each of the sectors
+ - Bar Graphs: ***cumulative return 12 months after IPO*** of each of the sectors
+ - Line Graph: ***cumulative return vs time since IPO*** of a company in the best performing exit round group and sector
   
 ### Hypothesis 
 
 - Companies that exited in the Growth Stage will have the highest ***cumulative returns vs time since IPO***
-- There will be a positive correlation between total funding the ***cumulative return vs time since IPO***
-- There will be a positive correlation between pre-IPO max valuation the ***cumulative return vs time since IPO***
 - Companies in the Healthcare sector will have the highest ***cumulative return vs time since IPO***
 
 ### Limitations
